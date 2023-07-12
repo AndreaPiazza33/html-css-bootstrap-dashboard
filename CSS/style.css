@@ -5,7 +5,7 @@
 }
 
 /*HEADER*/
-header{
+.ms-nav-header{
     height: 50px;
     background-color: #f8f9fa;
 }
