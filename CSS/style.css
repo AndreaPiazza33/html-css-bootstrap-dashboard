@@ -1,8 +1,33 @@
 
-
+.ms-bordered{
+    border: 1px dashed black;
+    background-color: aquamarine;
+}
 
 /*HEADER*/
 header{
     height: 50px;
     background-color: #f8f9fa;
+}
+
+/*MAIN*/
+
+/*SIDEBAR*/
+.ms-sidebar{
+    width: 50px;
+    background-color: blue;
+    height: calc(100vh - 50px);
+}
+.ms-sidebar ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+/*RESPONSIVE*/
+@media screen and (min-width:992px) {
+    .ms-sidebar{
+        width: 200px;
+    }
 }
