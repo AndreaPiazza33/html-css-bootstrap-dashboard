@@ -12,8 +12,15 @@
 
 /*MAIN*/
 
+/*HEADER*/
+.ms-main-header{
+    margin-left: 50px;
+}
 /*SIDEBAR*/
 .ms-sidebar{
+    position: absolute;
+    left: 0;
+    top: 50px;
     width: 50px;
     background-color: blue;
     height: calc(100vh - 50px);
@@ -27,6 +34,12 @@
 
 /*RESPONSIVE*/
 @media screen and (min-width:992px) {
+    /*MAIN-HEADER*/
+    .ms-main-header{
+        margin-left: 200px;
+    }
+
+    /*SIDEBAR*/
     .ms-sidebar{
         width: 200px;
     }

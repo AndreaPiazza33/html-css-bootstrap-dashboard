@@ -15,7 +15,7 @@
 
     <title>Bootstrap Dashboard</title>
 </head>
-<body><!--header con 3 div, sidebar e main content con cards -->
+<body><!--MOBILE FIRST--> <!--header con 3 div, sidebar e main content con cards-->
     <header class="d-flex align-items-center ms-nav-header"><!--3 div con logo e icon che scompaiono-->
         <div class="container-fluid bg-white">
             <div class="d-flex">
@@ -27,7 +27,25 @@
     </header>
 
     <main><!--sidebar con flex,header e main content con cards-->
-        
+        <!--MAIN HEADER-->
+        <header class="bg-primary ms-main-header"><!--3 div containerizzati,mobile a colonne,tablet affiancate stessa larghezza e desktop affiancate la prima con larghezza doppia-->
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row text-white">
+                    <div class="order-md-3 col-12 col-md-4 col-lg-3">
+                        <span>Nuovo studente</span>
+                        <span>icon+</span>
+                    </div>
+                    <div class="order-md-1 col-12 col-md-4 col-lg-6">
+                        <span>Boolean + labels</span>
+                    </div>
+                    <div class="order-md-2 col-12 col-md-4 col-lg-3">
+                        <span>Studenti online</span>
+                    </div>    
+                </div>
+                
+            </div>
+        </header>
+
         <!--SIDEBAR-->
         <div class="d-flex flex-column justify-content-between ms-sidebar text-white">
             <div>
