@@ -33,7 +33,7 @@
     width: 50px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
-    height: calc(100vh - 50px);
+    height: calc(100% - 50px);
 }
 .ms-sidebar ul{
     list-style-type: none;
