@@ -3,6 +3,9 @@
     border: 1px dashed black;
     background-color: aquamarine;
 }
+.ms-bg-gray{
+    background-color: #f8f9fa;
+}
 
 
 /*HEADER*/
@@ -17,6 +20,10 @@
 .ms-main-header{
     margin-left: 50px;
     background-color: #1b72e8;
+}
+/*OFFCANVAS*/
+.ms-offcanvas-width{
+    width: 100vw !important;
 }
 /*SIDEBAR*/
 .ms-sidebar{
@@ -42,7 +49,7 @@
     height: 500px;
 }
 .ms-main-cards{
-    border: 1 px dashed black;
+    border: 1px dashed black;
     background-color: deepskyblue;
     height: 240px;
 }
@@ -63,5 +70,9 @@
     /*MAIN CONTENT*/
     #ms-main-content{
         margin-left: 200px;
+    }
+    /*OFFCANVAS*/
+    .ms-offcanvas-width{
+        width: 50vw !important;
     }
 }
