@@ -28,7 +28,7 @@
 
     <main><!--sidebar con flex,header e main content con cards-->
         <!--MAIN HEADER-->
-        <header class="bg-primary ms-main-header"><!--3 div containerizzati,mobile a colonne,tablet affiancate stessa larghezza e desktop affiancate la prima con larghezza doppia-->
+        <header class="bg-primary ms-main-header"><!--3 div containerizzati,mobile a colonne,tablet affiancate stessa larghezza e desktop affiancate la prima con larghezza doppia delle altre 2 e la seconda doppia della terza-->
             <div class="container">
                 <div class="d-flex flex-column flex-md-row text-white">
                     <div class="ms-bordered order-md-3 col-12 col-md-4 col-lg-2">
@@ -66,6 +66,21 @@
             </div>
         </div>
 
+        <!--MAIN CONTENT-->
+        <section id="ms-main-content">
+            <div class="container">
+                <div class="d-flex flex-column flex-lg-row mt-3">
+                    <div class="ms-main-boxes d-flex flex-column col-12 col-lg-8">
+                        <div class="ms-main-cards ms-bordered col-12">TABELLA PROSSIME CLASSI</div>
+                        <div class="ms-main-cards ms-bordered col-12">F.A.Q.</div>
+                    </div>
+                    <div class="ms-main-boxes d-flex flex-column col-12 col-lg-4">
+                        <div class="ms-main-cards ms-bordered col-12">TO DO</div>
+                        <div class="ms-main-cards ms-bordered col-12">IMG + UTENTI ATTIVI</div>
+                    </div>
+                </div>                          
+            </div>
+        </section>
     </main>
 </body>
 </html>
